@@ -1,0 +1,16 @@
+# Maven
+target*
+dependency-reduced-pom.xml
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+
+# config may contain sensitive info
+*.connector.properties
+
+# other files
+.DS_Store
+*.swp
