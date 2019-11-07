@@ -1,8 +1,8 @@
 package com.bamboo.rule;
 
-import com.bamboo.rule.exception.RuleException;
 import com.bamboo.rule.common.CommonConstant;
 import com.bamboo.rule.common.RuleProperties;
+import com.bamboo.rule.exception.RuleException;
 import java.util.Hashtable;
 import org.apache.commons.configuration.Configuration;
 

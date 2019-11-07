@@ -2,8 +2,8 @@ package com.bamboo.rule.easy;
 
 import com.bamboo.rule.CommonRules;
 import com.bamboo.rule.RuleRepository;
-import com.bamboo.rule.exception.RuleException;
 import com.bamboo.rule.common.MetaConnectionUtil;
+import com.bamboo.rule.exception.RuleException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -98,9 +98,9 @@ public class CommonRules<R extends CommonRule> implements Iterable<R> {
 
   private R findRuleByName(String ruleName) {
     for (R rule : rules) {
-        if (rule.getName().equalsIgnoreCase(ruleName)) {
-            return rule;
-        }
+      if (rule.getName().equalsIgnoreCase(ruleName)) {
+        return rule;
+      }
     }
     return null;
   }

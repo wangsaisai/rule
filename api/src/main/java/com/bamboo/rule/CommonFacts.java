@@ -19,7 +19,8 @@ public class CommonFacts {
    * @param fact object to putGlobalFact
    * @return the previous value associated with <tt>name</tt>, or
    * <tt>null</tt> if there was no mapping for <tt>name</tt>.
-   * (A <tt>null</tt> return can also indicate that the map previously associated <tt>null</tt> with
+   * (A <tt>null</tt> return can also indicate that the map previously associated <tt>null</tt>
+   * with
    * <tt>name</tt>.)
    */
   public Object putGlobalFact(String name, Object fact) {
@@ -42,7 +43,8 @@ public class CommonFacts {
    * @param name of fact to remove
    * @return the previous value associated with <tt>name</tt>, or
    * <tt>null</tt> if there was no mapping for <tt>name</tt>.
-   * (A <tt>null</tt> return can also indicate that the map previously associated <tt>null</tt> with
+   * (A <tt>null</tt> return can also indicate that the map previously associated <tt>null</tt>
+   * with
    * <tt>name</tt>.)
    */
   public Object remove(String name) {
